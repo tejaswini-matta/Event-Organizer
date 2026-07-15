@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Booking</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>Event Booking</h1>
+
+</header>
+
+
+
+<div class="form-box">
+
+
+<form onsubmit="return submitBooking()">
+
+
+
+<label>Name</label>
+
+<input type="text" id="name">
+
+
+
+<label>Email</label>
+
+<input type="email" id="email">
+
+
+
+<label>Select Event</label>
+
+<select id="event">
+
+<option>Wedding</option>
+<option>Birthday</option>
+<option>Corporate</option>
+
+</select>
+
+
+
+<label>Budget</label>
+
+<select>
+
+<option>10000-20000</option>
+<option>20000-50000</option>
+<option>Above 50000</option>
+
+</select>
+
+
+
+<label>Decoration Preference</label>
+
+<textarea id="decoration"></textarea>
+
+
+
+<button type="submit">
+Confirm Booking
+</button>
+
+
+</form>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
